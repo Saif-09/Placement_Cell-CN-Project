@@ -70,7 +70,7 @@ module.exports.createUser = async function (req, res) {
   }
 };
 
-// to download report
+// to download report in csv format
 module.exports.downloadCsv = async function (req, res) {
   try {
     const students = await Student.find({});
