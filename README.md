@@ -2,7 +2,7 @@
 
 An interface for the employees of a company to fill in the data into the database and then download it in CSV format.
 
-Visit Live site on -> https://placement-cell-2vae.onrender.com
+Visit Live site on -> https://placement-cell-webapplication.onrender.com/
 
 <img width="960" alt="Sign In Page" src="https://user-images.githubusercontent.com/100505172/213485454-e57ecb48-8795-42be-bb3c-8c5302c49f44.png">
 
@@ -30,4 +30,4 @@ Node.Js, MongoDB, Express, Passport, Fast-csv, ejs
 3) Write environment variables in .env file:
 
 - SECRET=`Anything`
-- MONGO_URL=mongodb://localhost:27017/`DB Name`
+- MONGO_URL= You can give mongoDB atlas database link here
